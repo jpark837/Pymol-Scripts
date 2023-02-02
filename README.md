@@ -1,5 +1,5 @@
 # Pymol-Scripts
-Compilation of different pymol scripts I wrote for extracting structural properties using pymol:
+Compilation of different pymol scripts written for extracting structural properties using pymol:
 
 -  find_residue.py  
    usage: find_residue('selection as string', '1-letter amino acid as string')
