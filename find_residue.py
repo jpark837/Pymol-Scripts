@@ -1,11 +1,11 @@
-# copyright (C) 2010 Jihyun Park
+# copyright (C) 2023 Jihyun Park
 from pymol import cmd
 
 
 def find_residue(selection, residue):
     '''
     Input: selection as string, 1-letter amino acid as string.
-    Ouput: prints the number of instances of the amino acid and the string of the position of the instances as a list
+    Ouput: prints the number of instances of the amino acid and the string of the instances as a list
     e.g. find_residue('protein', 'D')
     '''
     aaseq = cmd.get_fastastr(selection)
