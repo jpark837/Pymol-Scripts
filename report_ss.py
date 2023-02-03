@@ -1,4 +1,4 @@
-# copyright (C) 2010 Jihyun Park
+# copyright (C) 2023 Jihyun Park
 from pymol import cmd
 from pymol import stored
 
