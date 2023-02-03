@@ -6,3 +6,8 @@ Compilation of different pymol scripts written for extracting structural propert
    e.g. find_residue('protein','D')
    Prints the prints the number of instances of the amino acid and the position of the instances as a list
 
+-  report_ss.py
+   usage: report_ss('selection as string')
+   e.g. report_ss('protein')
+   prints the one letter identifier, position, and secondary structure type
+
