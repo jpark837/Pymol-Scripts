@@ -11,7 +11,7 @@ Compilation of different pymol scripts written for extracting structural propert
    e.g. report_ss('protein')  
    prints the one letter identifier, position, and secondary structure type
 
--  int_hbonds.py
+-  int_hbonds.py  
    This is only for intramolecular hydrogen bonds
    usage: int_hbonds('selection as string', cutoff distance in angstrom, angle)  
    e.g. int_hbonds('protein', 3.2, 45)  
