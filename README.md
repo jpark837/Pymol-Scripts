@@ -13,7 +13,7 @@ Compilation of different pymol scripts written for extracting structural propert
 
 -  int_hbonds.py  
    This is only for intramolecular hydrogen bonds  
-   usage: int_hbonds('selection as string', cutoff distance in angstrom, angle)  
+   usage: int_hbonds('selection as string', minimum cutoff distance in angstrom,       maximum cutoff distance in angstrom, angle)  
    e.g. int_hbonds('protein', 3.2, 45)  
    Prints and returns a list of tuples.  
    Tuple format: (Atom1, Atom2, Residue 1, Residue 2, Distance between pair)
