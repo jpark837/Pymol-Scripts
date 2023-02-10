@@ -27,7 +27,6 @@ def int_hbonds(selection, min_cutoff, max_cutoff, angle):
                 ### First atom of the pair                
                 cmd.iterate(sel_atom1,
                             'stored.tuple_pair += (name, resi)' )
-                            #'print("Element: {} Residue: {} atom index: {}".format(name, resi, index))')
                 
                 ### Second atom of the pair
                 cmd.iterate(sel_atom2,
