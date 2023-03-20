@@ -27,8 +27,6 @@ def int_hbonds(selection, min_cutoff, max_cutoff, angle):
             cmd.delete('temp') # To remove pre-drawn labels of bonds
 
             if dist > min_cutoff:
-                print(dist)
-                print(min_cutoff)
                 ### First atom of the pair                
                 cmd.iterate(sel_atom1,
                             'stored.tuple_pair += (name, resi)' )
