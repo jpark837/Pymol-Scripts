@@ -16,7 +16,7 @@ Compilation of different pymol scripts written for extracting structural propert
    usage: int_hbonds('selection as string', minimum cutoff distance in angstrom,       maximum cutoff distance in angstrom, angle)  
    e.g. int_hbonds('protein', 2.5, 3.2, 45)  
    Prints and returns a list of tuples.  
-   Tuple format: (Atom1, Residue 1, Atom2, Residue 2, Distance between pair)
+   Tuple format: (Atom1, Residue 1 num., Atom2, Residue 2 num., Distance between pair)
    
 -  int_saltbridge.py  
    This is only for intramolecular salt bridges. Only considers LYS, ARG as possible cations and ASP, GLU as possible anions
