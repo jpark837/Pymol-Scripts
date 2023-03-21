@@ -23,5 +23,5 @@ Compilation of different pymol scripts written for extracting structural propert
    usage: int_saltbridge('selection as string', minimum cutoff distance in angstrom, maximum cutoff distance in angstrom, angle)  
    e.g. int_saltbridge('protein', 1, 4, 180)  
    Prints and returns a list of tuples.  
-   Tuple format: (Atom1, Residue 1, Atom2, Residue 2, Distance between pair)
+   Tuple format: (Atom1, Residue 1 num., Residue 1, Atom2, Residue 2 num., Residue 2, Distance between pair)
 
